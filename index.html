@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+
+
+<html>
+
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body style="background-color: #AAE1BA ">
+	<center>
+		<h1 style="font-family: sans-serif;"> NUMBER PREDICTOR</h1>
+
+
+		<div class="container" style="font-family: sans-serif;"> 
+			<br>
+		<h5>ENTER YOUR NUMBER FROM 1 to 100</h5>
+		<input id="user" class=form-control style="width: 100px">
+		<br>
+		<br>
+
+
+<button class="btn btn-danger" onclick="document.getElementById('demo').innerHTML = getRndInteger(0,100)">VERIFY </button>
+
+
+<p id="demo" style="font-size: 50px"> 
+</center>
+</body>
+
+<script>
+function getRndInteger(min, max) {
+  return Math.floor(Math.random() * (max - min)) + min;
+}
+
+</script>
+<style>
+	.container{ 
+border-radius: 50px 50px 50px 50px;
+  background: #AAE1E0 ;
+  padding: 20px;
+  width: 400px;
+  height: 450px;
+  box-shadow:2px 5px  2px  5px ;
+
+}
+</style>
+<br>
+<br>
+ <center><h5 style="" >&copy rajaraman</h5></center>
+</html>
